@@ -1,0 +1,13 @@
+﻿<Window x:Class="blocnotic.Windows.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:blocnotic.Windows"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Height="414" Width="780" FontSize="20"><Run/><LineBreak/><Run Language="ru-ru" Text="Программа обычная"/><Run Text="."/><Run Language="ru-ru" Text="Может сохранять и выводить ваш текстовый файл"/><Run Text="."/><Run Language="ru-ru" Text="Трудился студент группы ИС-21-02"/><Run Text=","/><Run Language="ru-ru" Text="Васильев Андрей"/><Run Text="."/></TextBlock>
+
+    </Grid>
+</Window>
